@@ -50,7 +50,7 @@ let mySwiper = new Swiper(slider, {
   navigation: {
   nextEl: '.swiper-button-next',
   prevEl: '.swiper-button-prev',	  
- },
+ },	
  pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
@@ -142,6 +142,30 @@ window.addEventListener('DOMContentLoaded', function(){
 window.addEventListener('DOMContentLoaded', function(){
 	document.querySelector('#realism').addEventListener('click', function(){
 		document.querySelector('.bar__selects').classList.toggle('hidden');
+	});
+});
+
+window.addEventListener('DOMContentLoaded', function(){
+	document.querySelector('#imp').addEventListener('click', function(){
+		document.querySelector('#imp-list').classList.toggle('hidden');
+	});
+});
+
+window.addEventListener('DOMContentLoaded', function(){
+	document.querySelector('#post').addEventListener('click', function(){
+		document.querySelector('#post-list').classList.toggle('hidden');
+	});
+});
+
+window.addEventListener('DOMContentLoaded', function(){
+	document.querySelector('#ava').addEventListener('click', function(){
+		document.querySelector('#ava-list').classList.toggle('hidden');
+	});
+});
+
+window.addEventListener('DOMContentLoaded', function(){
+	document.querySelector('#fut').addEventListener('click', function(){
+		document.querySelector('#fut-list').classList.toggle('hidden');
 	});
 });
 
